@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XFAppCenterImasters.Views.StartPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+                <StackLayout BackgroundColor="#145ba8" AbsoluteLayout.LayoutBounds="0,0,1,300" AbsoluteLayout.LayoutFlags="XProportional,YProportional,WidthProportional">
+                    <Label Text="Qualquer coisa" />
+                </StackLayout>
+                
+                <Image Source="imastersLogo.png" AbsoluteLayout.LayoutBounds=".5,250,300,100" AbsoluteLayout.LayoutFlags="XProportional" />
+                
+
+            </AbsoluteLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
